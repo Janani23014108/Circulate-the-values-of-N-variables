@@ -1,24 +1,38 @@
 # Circulate-the-values-of-N-variables
 Name:J.JANANI
+
 Register no:212223230085
+
 Department:B.tech AIDS
+
 ## Aim:
 To write a python program to circulate the n variables using function concept
 ## Equipment’s required:
 PC
 Anaconda - Python 3.7
 ## Algorithm: 
-### Step 1: 
+### Step 1:
+Define function circulate() 
 ### Step 2: 
+Get the input from the user for the list
 ### Step 3: 
 Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
 
 ### Step 5: 
+Print the result.
+
 ### Step 6: 
+Call the function circulate().
 ## Program:
 ```
+## Circulate-the-values-of-N-variables
+
+## Developed by: J.JANANI
+
+## Register no:212223230085
+
 def circulate():
     s=n%len(my_lst)
     return my_lst[s::] + my_lst[0:s]
